@@ -1,0 +1,18 @@
+{
+    "name": "jeligooch/php_scraper",
+    "description": "My first composer.json config",
+    "autoload": {
+        "psr-4": {
+            "Jeligooch\\PhpScraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JeliHacker",
+            "email": "jeligooch@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
